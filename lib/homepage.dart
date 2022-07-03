@@ -49,9 +49,9 @@ class _HomePageState extends State<HomePage> {
         centerTitle: true,
       ),
       body: isLoading
-          ? const Center(
+          ? Center(
               child: CircularProgressIndicator(
-                color: Colors.white,
+                color: Theme.of(context).primaryColor,
               ),
             )
           : ListView(
